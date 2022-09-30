@@ -64,7 +64,10 @@ return [
             'prefix' => '',
             'strict' => true,
             'engine' => null,
-	    'modes' => []
+	        'modes' => [],
+            // 'options'   => array(
+            //     PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA')
+            // ),
         ],
 
         'pgsql' => [
