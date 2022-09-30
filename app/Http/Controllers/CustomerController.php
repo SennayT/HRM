@@ -84,7 +84,7 @@ class CustomerController extends Controller
 
         $customers = $query->orderBy('created_at','desc')->paginate(10);
 
-        return view('customer.index',compact('customers','name','mobileNo','page'));
+        return view('customer.index',compact('customers','name','mobileNo'));
     }
 
     public function edit($id)

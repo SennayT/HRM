@@ -12,7 +12,7 @@
 */
 
 //Route::get('/', function () {
-//    return view('home');
+//   return "hi";
 //});
 Route::get('/','UserController@login')->name('home');
 Route::get('/login','UserController@login')->name('user.login');

@@ -1,0 +1,44 @@
+Arguments: 
+  /home/sennay/.nvm/versions/node/v18.1.0/bin/node /home/sennay/.nvm/versions/node/v18.1.0/bin/yarn
+
+PATH: 
+  /home/sennay/.bun/bin:/home/sennay/.nvm/versions/node/v18.1.0/bin:/home/sennay/.local/share/pnpm:/home/sennay/.deno/bin:/home/sennay/anaconda3/bin:/home/sennay/anaconda3/condabin:/home/sennay/Downloads/Compressed/apache-maven-3.8.4-bin/apache-maven-3.8.4/bin:/home/sennay/Downloads/gradle-7.2-all/gradle-7.2/bin:/home/sennay/.local/bin:/home/sennay/openjdk-17.0.1_linux-x64_bin/jdk-17.0.1/bin:/home/sennay/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sennay/.dotnet/tools:/usr/local/go/bin:/home/sennay/.local/share/JetBrains/Toolbox/scripts:/usr/local/go/bin:/home/sennay/go/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  18.1.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.27.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "prod": "gulp --production",
+      "dev": "gulp watch"
+    },
+    "devDependencies": {
+      "bootstrap-sass": "^3.3.7",
+      "gulp": "^3.9.1",
+      "jquery": "^3.1.0",
+      "laravel-elixir": "^6.0.0-11",
+      "laravel-elixir-vue-2": "^0.2.0",
+      "laravel-elixir-webpack-official": "^1.0.2",
+      "lodash": "^4.16.2",
+      "vue": "^2.0.1",
+      "vue-resource": "^1.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
